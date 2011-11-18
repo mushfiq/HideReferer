@@ -1504,3 +1504,411 @@ in /var/www/hiderefer/index.php (13)
 2011/11/18 14:05:40 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
 in /var/www/hiderefer/protected/controllers/SiteController.php (28)
 in /var/www/hiderefer/index.php (13)
+2011/11/18 16:04:52 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:04:52 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:04:52 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:05:37 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:05:37 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:05:37 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:06:26 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:06:26 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:06:26 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:06:47 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:06:47 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:06:47 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:07:28 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:07:28 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:07:28 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:07:31 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:07:31 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:07:31 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:07:34 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:07:34 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:07:34 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:13:22 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:13:22 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:13:22 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:13:31 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:13:31 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:13:31 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:14:11 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:14:11 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:14:11 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:17:29 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:17:29 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:17:29 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:22:47 [error] [php] Undefined variable: sucess (/var/www/hiderefer/protected/views/site/hide.php:19)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/hiderefer/protected/controllers/SiteController.php(47): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/views/site/hide.php (19)
+in /var/www/hiderefer/protected/controllers/SiteController.php (47)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:23:40 [error] [php] Undefined variable: msg (/var/www/hiderefer/protected/views/site/hide.php:19)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/hiderefer/protected/controllers/SiteController.php(47): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/views/site/hide.php (19)
+in /var/www/hiderefer/protected/controllers/SiteController.php (47)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:25:01 [error] [php] Undefined variable: msg (/var/www/hiderefer/protected/views/site/hide.php:19)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/hiderefer/protected/controllers/SiteController.php(47): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/views/site/hide.php (19)
+in /var/www/hiderefer/protected/controllers/SiteController.php (47)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:25:02 [error] [php] Undefined variable: msg (/var/www/hiderefer/protected/views/site/hide.php:19)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/hiderefer/protected/controllers/SiteController.php(47): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/views/site/hide.php (19)
+in /var/www/hiderefer/protected/controllers/SiteController.php (47)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:25:52 [error] [php] Use of undefined constant msg - assumed 'msg' (/var/www/hiderefer/protected/controllers/SiteController.php:47)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#1 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/controllers/SiteController.php (47)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:26:41 [error] [php] Use of undefined constant msg - assumed 'msg' (/var/www/hiderefer/protected/controllers/SiteController.php:47)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#1 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/controllers/SiteController.php (47)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:27:09 [error] [php] Use of undefined constant msg - assumed 'msg' (/var/www/hiderefer/protected/controllers/SiteController.php:47)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#1 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/controllers/SiteController.php (47)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:27:54 [error] [php] Use of undefined constant msg - assumed 'msg' (/var/www/hiderefer/protected/controllers/SiteController.php:47)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#1 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/controllers/SiteController.php (47)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:30:16 [error] [php] Use of undefined constant msg - assumed 'msg' (/var/www/hiderefer/protected/controllers/SiteController.php:49)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#1 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php
+in /var/www/hiderefer/protected/controllers/SiteController.php (49)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:30:51 [error] [php] Undefined variable: test (/var/www/hiderefer/protected/views/site/hide.php:19)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/hiderefer/protected/controllers/SiteController.php(49): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/views/site/hide.php (19)
+in /var/www/hiderefer/protected/controllers/SiteController.php (49)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:31:49 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:31:49 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:31:49 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:31:49 [error] [php] Undefined variable: urlId (/var/www/hiderefer/protected/controllers/SiteController.php:36)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#1 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/controllers/SiteController.php (36)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:32:27 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:32:27 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:32:27 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:32:27 [error] [php] Undefined variable: model (/var/www/hiderefer/protected/views/site/hide.php:38)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/hiderefer/protected/controllers/SiteController.php(44): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/views/site/hide.php (38)
+in /var/www/hiderefer/protected/controllers/SiteController.php (44)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:33:28 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:33:28 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:33:28 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:33:28 [error] [php] Undefined variable: model (/var/www/hiderefer/protected/views/site/hide.php:38)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/hiderefer/protected/controllers/SiteController.php(44): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/views/site/hide.php (38)
+in /var/www/hiderefer/protected/controllers/SiteController.php (44)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:33:56 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:33:56 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:33:56 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:33:56 [error] [php] Undefined variable: model (/var/www/hiderefer/protected/views/site/hide.php:38)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/hiderefer/protected/controllers/SiteController.php(44): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/views/site/hide.php (38)
+in /var/www/hiderefer/protected/controllers/SiteController.php (44)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:40:04 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:40:04 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:40:04 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:40:04 [error] [php] Undefined variable: model (/var/www/hiderefer/protected/views/site/hide.php:38)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/hiderefer/protected/controllers/SiteController.php(44): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/views/site/hide.php (38)
+in /var/www/hiderefer/protected/controllers/SiteController.php (44)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:41:24 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:41:24 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:41:24 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:49:42 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:49:42 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:49:42 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:50:25 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:50:25 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:50:25 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:54:24 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:54:24 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:54:24 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:58:37 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:58:37 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 16:58:37 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)

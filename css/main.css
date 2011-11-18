@@ -227,3 +227,12 @@ div.search-form
 {
 	background: #80CFFF;
 }
+
+#linkSubmit{
+  
+    float: left;
+}
+#linkCloak{
+    float: right;
+    margin-right: 760px;
+}

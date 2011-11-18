@@ -22,6 +22,7 @@ class SiteController extends Controller {
 
     public function actionIndex() {
         $model = new HideForm;
+        
 
         if (isset($_POST['HideForm'])) {
             $hide = new Hide;
@@ -31,11 +32,19 @@ class SiteController extends Controller {
                     $hide->url = $_POST['HideForm']['url'];
                     $hide->create_time = time();
                     $hide->save();
-                    echo "sucess!";
-                    $read = Hide::model()->find('url=:url', array(':url' => $_POST['HideForm']['url']));
-                    echo $read->url;
-                    echo '\?';
+                    //$sucess["msg"] = "Sucessfully Inserted!";
+                    //$read = Hide::model()->find('id=:id', array(':id' => $urlId));
+            
+//                    echo "sucess!";
+                     $read = Hide::model()->find('create_time=:create_time', array(':create_time' =>  $hide->create_time));
+                   
+                    //$read = Hide::model()->find('url=:url', array(':url' => $_POST['HideForm']['url']));
+                    $test["a"] = $read->url;
+                    echo $test["a"];
+//                    echo $read->url;
+                    echo '/?'.'id=';
                     echo $read->id;
+//                    $this->render('hide',array('model' => $model));
                 } catch (Exception $e) {
                     echo 'Caught exception: ', $e->getMessage(), "\n";
                 }
