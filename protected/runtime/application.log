@@ -1322,3 +1322,185 @@ in /var/www/hiderefer/index.php (13)
 2011/11/18 02:13:49 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
 in /var/www/hiderefer/protected/controllers/HideController.php (41)
 in /var/www/hiderefer/index.php (13)
+2011/11/18 13:13:21 [error] [php] Undefined variable: test (/var/www/hiderefer/protected/views/site/hide.php:24)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/hiderefer/protected/controllers/SiteController.php(62): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/views/site/hide.php (24)
+in /var/www/hiderefer/protected/controllers/SiteController.php (62)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 13:14:10 [error] [exception.CException] exception 'CException' with message 'Property "HideForm.directurl" is not defined.' in /var/www/yii/framework/base/CComponent.php:131
+Stack trace:
+#0 /var/www/yii/framework/web/helpers/CHtml.php(2063): CComponent->__get('directurl')
+#1 /var/www/yii/framework/web/helpers/CHtml.php(1791): CHtml::resolveValue(Object(HideForm), 'directurl')
+#2 /var/www/yii/framework/web/helpers/CHtml.php(1199): CHtml::activeInputField('text', Object(HideForm), 'directurl', Array)
+#3 /var/www/yii/framework/web/widgets/CActiveForm.php(568): CHtml::activeTextField(Object(HideForm), 'directurl', Array)
+#4 /var/www/hiderefer/protected/views/site/hide.php(40): CActiveForm->textField(Object(HideForm), 'directurl')
+#5 /var/www/yii/framework/web/CBaseController.php(119): require('/var/www/hidere...')
+#6 /var/www/yii/framework/web/CBaseController.php(88): CBaseController->renderInternal('/var/www/hidere...', Array, true)
+#7 /var/www/yii/framework/web/CController.php(866): CBaseController->renderFile('/var/www/hidere...', Array, true)
+#8 /var/www/yii/framework/web/CController.php(779): CController->renderPartial('hide', Array, true)
+#9 /var/www/hiderefer/protected/controllers/SiteController.php(62): CController->render('hide', Array)
+#10 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#11 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#12 /var/www/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#13 /var/www/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('')
+#15 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('')
+#16 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#17 /var/www/hiderefer/index.php(13): CApplication->run()
+#18 {main} REQUEST_URI=/hiderefer/index.php/
+2011/11/18 13:16:48 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (32)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 13:16:48 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (32)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 13:16:48 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (32)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 13:58:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/redirect/?id=1
+2011/11/18 13:58:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/redirect/
+2011/11/18 13:58:23 [error] [php] Undefined variable: test (/var/www/hiderefer/protected/controllers/SiteController.php:71)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#1 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/site/redirect/
+in /var/www/hiderefer/protected/controllers/SiteController.php (71)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 13:58:28 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "redirect".' in /var/www/yii/framework/web/CController.php:875
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(779): CController->renderPartial('redirect', Array, true)
+#1 /var/www/hiderefer/protected/controllers/SiteController.php(71): CController->render('redirect', Array)
+#2 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionRedirect()
+#3 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams(Array)
+#4 /var/www/yii/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('redirect')
+#7 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/redirect')
+#8 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#9 /var/www/hiderefer/index.php(13): CApplication->run()
+#10 {main} REQUEST_URI=/hiderefer/index.php/site/redirect/?id=2
+2011/11/18 13:59:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/redirect/?id=2
+2011/11/18 14:00:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in /var/www/yii/framework/web/actions/CViewAction.php:110
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(121): CViewAction->resolveView('about')
+#1 /var/www/yii/framework/web/actions/CAction.php(72): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(300): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(278): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/page/view/...')
+#7 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /var/www/hiderefer/index.php(13): CApplication->run()
+#9 {main} REQUEST_URI=/hiderefer/index.php/site/page/view/about
+2011/11/18 14:00:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/hide".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/hide')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/hide
+2011/11/18 14:00:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in /var/www/yii/framework/web/actions/CViewAction.php:110
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(121): CViewAction->resolveView('about')
+#1 /var/www/yii/framework/web/actions/CAction.php(72): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(300): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(278): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/page/view/...')
+#7 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /var/www/hiderefer/index.php(13): CApplication->run()
+#9 {main} REQUEST_URI=/hiderefer/index.php/site/page/view/about
+2011/11/18 14:00:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/hide".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/hide')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/hide
+2011/11/18 14:00:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/hide".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/hide')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/hide
+2011/11/18 14:00:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/hide".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/hide')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/hide
+2011/11/18 14:00:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in /var/www/yii/framework/web/actions/CViewAction.php:110
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(121): CViewAction->resolveView('about')
+#1 /var/www/yii/framework/web/actions/CAction.php(72): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(300): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(278): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/page/view/...')
+#7 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /var/www/hiderefer/index.php(13): CApplication->run()
+#9 {main} REQUEST_URI=/hiderefer/index.php/site/page/view/about
+2011/11/18 14:00:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in /var/www/yii/framework/web/actions/CViewAction.php:110
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(121): CViewAction->resolveView('about')
+#1 /var/www/yii/framework/web/actions/CAction.php(72): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(300): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(278): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/page/view/...')
+#7 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /var/www/hiderefer/index.php(13): CApplication->run()
+#9 {main} REQUEST_URI=/hiderefer/index.php/site/page/view/about
+2011/11/18 14:00:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested view "about" was not found.' in /var/www/yii/framework/web/actions/CViewAction.php:110
+Stack trace:
+#0 /var/www/yii/framework/web/actions/CViewAction.php(121): CViewAction->resolveView('about')
+#1 /var/www/yii/framework/web/actions/CAction.php(72): CViewAction->run()
+#2 /var/www/yii/framework/web/CController.php(300): CAction->runWithParams(Array)
+#3 /var/www/yii/framework/web/CController.php(278): CController->runAction(Object(CViewAction))
+#4 /var/www/yii/framework/web/CController.php(257): CController->runActionWithFilters(Object(CViewAction), Array)
+#5 /var/www/yii/framework/web/CWebApplication.php(277): CController->run('page')
+#6 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('site/page/view/...')
+#7 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#8 /var/www/hiderefer/index.php(13): CApplication->run()
+#9 {main} REQUEST_URI=/hiderefer/index.php/site/page/view/about
+2011/11/18 14:05:40 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 14:05:40 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 14:05:40 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (28)
+in /var/www/hiderefer/index.php (13)

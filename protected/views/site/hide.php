@@ -1,54 +1,66 @@
 <?php
-$this->pageTitle=Yii::app()->name . ' - HideRefer';
-$this->breadcrumbs=array(
-	'Contact',
-);
+$this->pageTitle = Yii::app()->name . ' - HideRefer';
 ?>
 
 <h1>HideRefer</h1>
 
-<?php if(Yii::app()->user->hasFlash('contact')): ?>
+<?php if (Yii::app()->user->hasFlash('contact')): ?>
 
-<div class="flash-success">
-	<?php echo Yii::app()->user->getFlash('contact'); ?>
-</div>
+    <div class="flash-success">
+        <?php echo Yii::app()->user->getFlash('contact'); ?>
+    </div>
 
 <?php else: ?>
 
-<p>
-If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
-</p>
+    <p>
+        If you have business inquiries or other questions, please fill out the following form to contact us. Thank you.
+    </p>
 
-<div class="form">
+    <div class="form">
 
-    <?php if($test):echo "ok!"; else: echo "NO!"; endif;?>
-    
-<?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'hide-form',
-	'enableClientValidation'=>true,
-	'clientOptions'=>array(
-		'validateOnSubmit'=>true,
-	),
-)); ?>
+        <?php
+        $form = $this->beginWidget('CActiveForm', array(
+                    'id' => 'hide-form',
+                    'enableClientValidation' => true,
+                    'clientOptions' => array(
+                        'validateOnSubmit' => true,
+                    ),
+                ));
+        ?>
 
-	<p class="note">Fields with <span class="required">*</span> are required.</p>
+        <p class="note">Fields with <span class="required">*</span> are required.</p>
 
-	<?php echo $form->errorSummary($model); ?>
+    <?php echo $form->errorSummary($model); ?>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'directurl'); ?>
-		<?php echo $form->textField($model,'directurl'); ?>
-		<?php echo $form->error($model,'directurl'); ?>
-	</div>
+        <div class="row">
+            <?php echo $form->labelEx($model, 'url'); ?>
+            <?php echo $form->textField($model, 'url'); ?>
+    <?php echo $form->error($model, 'url'); ?>
+        </div>
 
-	
+        <div class="row" id="url_direct">
+            <?php echo $form->labelEx($model, 'urlDirect'); ?>
+            <?php echo $form->textArea($model, 'urlDirect'); ?>
+    <?php echo $form->error($model, 'urlDirect'); ?>
+        </div>
+        <div class="row" id="url_html">
+            <?php echo $form->labelEx($model, 'urlHtml'); ?>
+            <?php echo $form->textArea($model, 'urlHtml'); ?>
+    <?php echo $form->error($model, 'urlHtml'); ?>
+        </div>
+        <div class="row" id="url_bbcode">
+            <?php echo $form->labelEx($model, 'urlBbcode'); ?>
+            <?php echo $form->textArea($model, 'urlBbcode'); ?>
+    <?php echo $form->error($model, 'urlBbcode'); ?>
+        </div>
 
-	<div class="row buttons">
-		<?php echo CHtml::submitButton('Submit'); ?>
-	</div>
+        <div class="row buttons" id="linkSubmit">
+    <?php echo CHtml::submitButton('Submit'); ?>
+        </div>
 
-<?php $this->endWidget(); ?>
 
-</div><!-- form -->
+    <?php $this->endWidget(); ?>
+
+    </div><!-- form -->
 
 <?php endif; ?>
