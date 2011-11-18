@@ -20,7 +20,7 @@ Your cloaked link is:
 </p>
 
 <div class="form">
-    <a target="_blank" href="http://<?php echo $msg; ?>">http://<?php echo $msg; ?></a>
+    <a target="_blank" href="<?php echo "./"."/site/redirect/?id=".$id; ?>"><?php echo $url.$id; ?></a>
 
 </div><!-- form -->
 

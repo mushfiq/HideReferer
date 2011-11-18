@@ -22,8 +22,6 @@ class SiteController extends Controller {
 
     public function actionIndex() {
         $model = new HideForm;
-        
-
         if (isset($_POST['HideForm'])) {
             $hide = new Hide;
             $model->attributes = $_POST['HideForm'];
@@ -32,25 +30,21 @@ class SiteController extends Controller {
                     $hide->url = $_POST['HideForm']['url'];
                     $hide->create_time = time();
                     $hide->save();
-                    //$sucess["msg"] = "Sucessfully Inserted!";
-                    //$read = Hide::model()->find('id=:id', array(':id' => $urlId));
-            
-//                    echo "sucess!";
-                     $read = Hide::model()->find('create_time=:create_time', array(':create_time' =>  $hide->create_time));
-                   
-                    //$read = Hide::model()->find('url=:url', array(':url' => $_POST['HideForm']['url']));
-                    $test["a"] = $read->url;
-                    echo $test["a"];
-//                    echo $read->url;
-                    echo '/?'.'id=';
-                    echo $read->id;
-//                    $this->render('hide',array('model' => $model));
+                    $read = Hide::model()->find('create_time=:create_time', array(':create_time' => $hide->create_time));
+                    $test["url"] = $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'].'site/redirect/?id=';
+
+                    echo '/?' . 'id=';
+                    $test["id"] = $read->id;
+                    $this->render('success', $test);
                 } catch (Exception $e) {
                     echo 'Caught exception: ', $e->getMessage(), "\n";
                 }
             }
         }
-        $this->render('hide', array('model' => $model));
+        else{
+            $this->render('hide', array('model' => $model));
+        }
+        
     }
 
     /**

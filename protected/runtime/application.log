@@ -1912,3 +1912,464 @@ in /var/www/hiderefer/index.php (13)
 2011/11/18 16:58:37 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
 in /var/www/hiderefer/protected/controllers/SiteController.php (29)
 in /var/www/hiderefer/index.php (13)
+2011/11/18 19:07:03 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:07:03 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:07:03 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:07:03 [error] [php] Undefined variable: msg (/var/www/hiderefer/protected/views/site/success.php:23)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/hiderefer/protected/controllers/SiteController.php(47): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php
+in /var/www/hiderefer/protected/views/site/success.php (23)
+in /var/www/hiderefer/protected/controllers/SiteController.php (47)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:07:37 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:07:37 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:07:37 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:08:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:09:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:09:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:09:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:09:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:09:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:09:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:09:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:09:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:09:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=3
+2011/11/18 19:09:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=3
+2011/11/18 19:09:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=3
+2011/11/18 19:09:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=3
+2011/11/18 19:09:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=45
+2011/11/18 19:09:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=45
+2011/11/18 19:09:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=45
+2011/11/18 19:09:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/
+2011/11/18 19:09:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:09:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:09:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:10:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "hide/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('hide/redirect')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/hide/redirect/?id=1
+2011/11/18 19:20:15 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:20:15 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:20:15 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:20:15 [error] [php] Undefined variable: id (/var/www/hiderefer/protected/views/site/success.php:23)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(866): SiteController->renderFile()
+#1 /var/www/yii/framework/web/CController.php(779): SiteController->renderPartial()
+#2 /var/www/hiderefer/protected/controllers/SiteController.php(47): SiteController->render()
+#3 /var/www/yii/framework/web/actions/CInlineAction.php(50): SiteController->actionIndex()
+#4 /var/www/yii/framework/web/CController.php(300): CInlineAction->runWithParams()
+#5 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#6 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#7 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#8 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#9 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#10 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/views/site/success.php (23)
+in /var/www/hiderefer/protected/controllers/SiteController.php (47)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:20:42 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:20:42 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:20:42 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:36:03 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:36:03 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:36:03 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:36:03 [error] [php] Undefined index: a (/var/www/hiderefer/protected/controllers/SiteController.php:42)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#1 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php/
+in /var/www/hiderefer/protected/controllers/SiteController.php (42)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:36:39 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:36:39 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:36:39 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:39:02 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:39:02 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:39:02 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (29)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:43:05 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:43:05 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:43:05 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:43:33 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:43:33 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:43:33 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:44:40 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:44:40 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:44:40 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:44:40 [error] [php] Undefined variable: scriptName (/var/www/hiderefer/protected/controllers/SiteController.php:41)
+Stack trace:
+#0 /var/www/yii/framework/web/CController.php(278): SiteController->runAction()
+#1 /var/www/yii/framework/web/CController.php(257): SiteController->runActionWithFilters()
+#2 /var/www/yii/framework/web/CWebApplication.php(277): SiteController->run()
+#3 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController()
+#4 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#5 /var/www/hiderefer/index.php(13): CWebApplication->run()
+REQUEST_URI=/hiderefer/index.php
+in /var/www/hiderefer/protected/controllers/SiteController.php (41)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:45:02 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:45:02 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:45:02 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:52:55 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:52:55 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:52:55 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:53:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "localhost/hiderefer/index.php/site/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('localhost/hider...')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/localhost/hiderefer/index.php/site/redirect/?id=82
+2011/11/18 19:53:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "localhost/hiderefer/index.php/site/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('localhost/hider...')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/localhost/hiderefer/index.php/site/redirect/?id=82
+2011/11/18 19:53:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "localhost/hiderefer/index.php/site/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('localhost/hider...')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/localhost/hiderefer/index.php/site/redirect/?id=82
+2011/11/18 19:53:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "localhost/hiderefer/index.php/site/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('localhost/hider...')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/localhost/hiderefer/index.php/site/redirect/?id=82
+2011/11/18 19:53:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "localhost/hiderefer/index.php/site/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('localhost/hider...')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/localhost/hiderefer/index.php/site/redirect/?id=82
+2011/11/18 19:53:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "localhost/hiderefer/index.php/site/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('localhost/hider...')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/localhost/hiderefer/index.php/site/redirect/?id=82
+2011/11/18 19:53:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "localhost/hiderefer/index.php/site/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('localhost/hider...')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/localhost/hiderefer/index.php/site/redirect/?id=82
+2011/11/18 19:53:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "localhost/hiderefer/index.php/site/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('localhost/hider...')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/localhost/hiderefer/index.php/site/redirect/?id=82
+2011/11/18 19:53:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "localhost/hiderefer/index.php/site/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('localhost/hider...')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/localhost/hiderefer/index.php/site/redirect/?id=82
+2011/11/18 19:53:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "localhost/hiderefer/index.php/site/redirect".' in /var/www/yii/framework/web/CWebApplication.php:281
+Stack trace:
+#0 /var/www/yii/framework/web/CWebApplication.php(136): CWebApplication->runController('localhost/hider...')
+#1 /var/www/yii/framework/base/CApplication.php(158): CWebApplication->processRequest()
+#2 /var/www/hiderefer/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/hiderefer/index.php/localhost/hiderefer/index.php/site/redirect/?id=82
+2011/11/18 19:54:48 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:54:48 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:54:48 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:55:41 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:55:41 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:55:41 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:56:25 [warning] [application] Failed to set unsafe attribute "urlDirect" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:56:25 [warning] [application] Failed to set unsafe attribute "urlHtml" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
+2011/11/18 19:56:25 [warning] [application] Failed to set unsafe attribute "urlBbcode" of "HideForm".
+in /var/www/hiderefer/protected/controllers/SiteController.php (30)
+in /var/www/hiderefer/index.php (13)
