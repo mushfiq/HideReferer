@@ -17,5 +17,14 @@ $(document).ready( function(e){
         $("#HideForm_urlBbcode").append(bbUrl);
 
     });
-
+    
+    
+    var currentUrl = document.URL;
+    if(currentUrl.search(/id=/)>0){
+        var redirectUrl = $("#url").text();
+        setTimeout(function(){ 
+            window.location = redirectUrl;
+        }, 3000 ); 
+    
+}
 });
