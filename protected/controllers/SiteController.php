@@ -32,8 +32,6 @@ class SiteController extends Controller {
                     $hide->save();
                     $read = Hide::model()->find('create_time=:create_time', array(':create_time' => $hide->create_time));
                     $test["url"] = $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'].'site/redirect/?id=';
-
-                    echo '/?' . 'id=';
                     $test["id"] = $read->id;
                     $this->render('success', $test);
                 } catch (Exception $e) {
