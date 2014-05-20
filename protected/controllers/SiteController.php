@@ -31,9 +31,9 @@ class SiteController extends Controller {
                     $hide->create_time = time();
                     $hide->save();
                     $read = Hide::model()->find('create_time=:create_time', array(':create_time' => $hide->create_time));
-                    $test["url"] = $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'].'site/redirect/?id=';
-                    $test["id"] = $read->id;
-                    $this->render('success', $test);
+                    $info["url"] = $_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI'].'site/redirect/?id=';
+                    $info["id"] = $read->id;
+                    $this->render('success', $info);
                 } catch (Exception $e) {
                     echo 'Caught exception: ', $e->getMessage(), "\n";
                 }
@@ -60,12 +60,10 @@ class SiteController extends Controller {
     public function actionRedirect() {
         $urlId = Yii::app()->request->getParam('id', 'default');
         if ($urlId != "default") {
-            //echo $urlId;
             $read = Hide::model()->find('id=:id', array(':id' => $urlId));
-            $test["a"] = $read->url;
-            //echo $read->url;
+            $info["a"] = $read->url;
         }
-        $this->render('redirect', $test);
+        $this->render('redirect', $info);
     }
 
 }

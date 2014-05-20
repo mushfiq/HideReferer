@@ -11,10 +11,6 @@ class HideForm extends CFormModel
         public $urlDirect;
         public $urlHtml;
         public $urlBbcode;
-//	public $email;
-//	public $subject;
-//	public $body;
-//	public $verifyCode;
 
 	/**
 	 * Declares the validation rules.
@@ -27,7 +23,6 @@ class HideForm extends CFormModel
 			// email has to be a valid email address
 			array('url', 'url'),
 			// verifyCode needs to be entered correctly
-			//array('verifyCode', 'captcha', 'allowEmpty'=>!CCaptcha::checkRequirements()),
 		);
 	}
 
